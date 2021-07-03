@@ -1,0 +1,190 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 253, 253);
+    margin: 0 auto;
+}
+ul{
+    padding: 0px!important;
+}
+.menu-pricipal{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    border-bottom: 2px solid goldenrod;
+}
+main, .content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo{
+    padding: 19px;
+    width: 70%;
+    float: left;
+}
+.redes-sociais ul li{
+    display: inline;
+    padding: 10px;
+    float: left;
+}
+.redes-sociais{
+    width: 20%;
+    float: right;
+}
+.header-2{
+    background-color: rgb(255, 255, 245);
+    height: 50px;
+    width: 980px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.menu-urls{
+    border-bottom: 2px solid rgb(94, 93, 93);
+    height: 80px;
+}
+.menu-2 ul li {
+    display:inline-block;
+    color: goldenrod;
+    margin-left: 30px;
+    height: 45px;
+}
+.menu-2 ul li:hover{
+    border-bottom: 4px solid goldenrod;
+}
+.menu-2 ul li a:hover{
+    color: goldenrod;
+}
+button.slick-prev{
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    height: 30px;
+    width: 30px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/setae.png);
+    top: 35%;
+    left: 50px;
+}
+button.slick-next{
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    height: 37px;
+    width: 30px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/setad.png);
+    top: 35%;
+    right: 50px;
+}
+
+
+.menu-2 ul li a{
+    color: rgb(114, 114, 114);
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    
+}
+.menu-2{
+    width: 70%;
+    float: left;
+}
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+.busca input {
+    
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat ;
+    background-position: right 45%;
+    height: 30px;
+    width: 250px;
+    margin-top: 5px;
+    border: 1px solid rgb(131, 131, 131);
+}
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.slider-pricipal{
+    width: 100%;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+.slick-dots li button{
+    font-size: 0px;
+    border: 5px solid rgb(66, 66, 66);
+    width: 1px;
+    height: 21px;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slick-dots{
+    margin: 6 px auto;
+    width: 50%;
+    position: absolute;
+    left: 46%;  
+    top: 302px;
+}
+li.slick-active button{
+    background-color: rgb(255, 217, 0); 
+    
+}
+.slick-dots li{
+    padding-left: 20px;
+    display: inline-block;
+
+}
+.texto-destaque{
+    text-align: center;
+
+}
+.texto-destaque h1{
+    color: rgb(126, 126, 126);
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.texto-destaque strong{
+    color: rgb(48, 48, 48);
+}
+.texto-destaque p {
+    color: rgb(58, 58, 58);
+    font-size: 15px;
+
+}
+.col-3{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.bloco-texto {
+    margin-top: 3em;
+}
+h3{
+    font-weight: normal!important;
+}
+.img-menu{
+    border-top: 3px solid rgb(202, 202, 202);
+}
+.img-menu{
+    width: 1345px;
+    height: 300px;
+    background-color: rgb(224, 223, 223);
+    position: relative;
+    margin-top: 50px;
+    float: left;
+    text-align: center;
+}
